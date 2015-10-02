@@ -1,0 +1,6 @@
+@mixin respond-to($attr, $query){
+	@media screen and ($attr: $query){
+		@content;
+	}
+}
+	

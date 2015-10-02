@@ -1,0 +1,21 @@
+@import "constants";
+@import "functions";
+@import "mixins";
+
+
+.btn-nav-toggle{
+    font-size: fontCalculator(20,16);
+    color: lightblue;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.menu-item{
+    width: 400px;
+    
+}
+
+.menu-btn{
+    margin: 10px;
+    
+}

@@ -1,0 +1,12 @@
+/dist/
+/nbproject/
+/setup/
+/build.txt
+/CreateStatements.sql
+/src/conf/
+/build/
+/build.xml
+/web/resources/css/.sass-cache
+/web/resources/css/*~
+/web/resources/css/*.map
+/web/WEB-INF

@@ -1,0 +1,24 @@
+@import "button";
+@import "nav";
+@import "table";
+@import "constants";
+@import "functions";
+@import "mixins";
+
+html{
+    font-size: 16px;
+    
+}
+body{
+    font-size: 16px;
+}
+
+.main-body{
+    margin-top: $margin-menu;
+    margin-bottom: $margin-menu;
+}
+.error{
+    font-size: fontCalculator(20,16);
+    color: red;
+    font-weight: bold;
+}

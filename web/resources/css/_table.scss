@@ -1,0 +1,64 @@
+@import "constants";
+@import "functions";
+@import "mixins";
+
+.menu-item{
+    margin: $margin-menu 0 $margin-menu 0;
+    a{
+        font-size: fontCalculator(23,16);
+    }
+
+}
+
+.table-header{
+    font-size:fontCalculator(24,16);
+    font-weight: bold;
+    text-align:center;
+    td{
+        padding: 5px 0 5px 0;
+    }
+}
+.table-row{
+    font-size: fontCalculator(20,16);
+    text-align:center;
+    width:100%;
+    padding: 25% 0 25% 0;
+    input[type="text"]{
+        border: 0;
+        
+    }
+    td{
+      padding: 10px 0 10px 0;  
+    }
+    
+}
+
+.table-tutorial-edit{
+    margin: 25px auto;
+    tr{
+        border: 1px solid black;
+        th{
+            text-align:center;
+            vertical-align:middle;
+            font-size: fontCalculator(20,16);
+        }
+        td{
+            text-align:center;
+            vertical-align:middle;
+            font-size: fontCalculator(14,16);
+            padding: 15px;
+        }
+    }
+    
+}
+
+.tbl-sub{
+    margin: 5px auto;
+    display:none;
+    position: absolute;
+    z-index: 9999;
+    background-color:beige;
+    td{
+        padding: 0px !important;
+    }
+}

@@ -1,0 +1,3 @@
+@function fontCalculator($target, $context){
+	@return ($target/$context) * 100%;
+}
